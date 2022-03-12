@@ -3,6 +3,7 @@
     background-image: url('../Assets/backgrounds/h_img.jpg');
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
     padding-top: 20%;
     color: white;
     text-align: center;
