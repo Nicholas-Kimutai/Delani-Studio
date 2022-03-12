@@ -1,0 +1,9 @@
+.home{
+    height: 700px;
+    background-image: url('../Assets/backgrounds/h_img.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 20%;
+    color: white;
+
+}
