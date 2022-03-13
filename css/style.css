@@ -47,3 +47,13 @@ input[type=text],input[type=email],#message{
 .form-bg button{
     background-color:white;
 }
+.footer{
+    margin-top: 2%;
+    text-align: center;
+}
+
+#copyright{
+    padding-top: 2%;
+    line-height: 1px;
+    padding-bottom: 2%;
+}
