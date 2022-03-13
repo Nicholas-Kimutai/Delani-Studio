@@ -16,9 +16,7 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
-.portfolio{
 
-}
 .contact_us{
 background-image: url('../Assets/backgrounds/c_image.jpg');
 background-position: center;
@@ -28,6 +26,24 @@ text-align: center;
 margin-left: 5%;
 margin-right: 5%;
 }
+.contact_us h2{
+    text-align: center;
+    color: white;
+    padding-top: 2%;
+
+
+}
 .contact_us form{
-    padding: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+input[type=text],input[type=email],#message{
+    background-color: transparent;
+    border: 1px white solid;
+}
+.form-control::placeholder{
+    color: white;
+}
+.form-bg button{
+    background-color:white;
 }

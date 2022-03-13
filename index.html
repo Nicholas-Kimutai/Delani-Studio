@@ -154,24 +154,25 @@
     <div class="container-fluid">
         <div class="contact_us">
             <h2>CONTACT US</h2>
-            <form action="">
-                <div class="row">
-                    <div class="col">
-                        <label for="Name" class="form-label"></label>
-                        <input type="text" class="form-control" id="name" placeholder="Name...">
+            <div class="form-bg">
+                <form>
+                    <div class="row">
+                        <div class="col">
+                            <label for="Name" class="form-label"></label>
+                            <input type="text" class="form-control" id="name" placeholder="Name...">
+                        </div>
+                        <div class="col">
+                            <label for="Email" class="form-label"></label>
+                            <input type="email" class="form-control" id="email" placeholder="Email...">
+                        </div>
                     </div>
-                    <div class="col">
-                        <label for="Email" class="form-label"></label>
-                        <input type="email" class="form-control" id="email" placeholder="Email...">
+                    <div class="row justify-content-center">
+                        <label for="message" class="form-label"></label> <br>
+                        <textarea class="form-control w-75" id="message" placeholder="Your message here..." rows="8"></textarea>
                     </div>
-                </div>
-                <div class="row">
-                    <!-- <label for="message" class="form-label"></label> -->
-                    <textarea class="form-control" id="message" placeholder="Your message here..." rows="3"></textarea>
-                </div>
-                <button id="submit" type="submit" class="btn text-center mt-5 mb-5">Send Message</button>
-
-            </form>
+                    <button id="submit" type="submit" class="btn text-center mt-5 mb-5">Submit</button>
+                </form>
+            </div>
         </div>
     </div>
     
