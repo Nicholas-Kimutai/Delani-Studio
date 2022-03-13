@@ -27,5 +27,12 @@ $(document).ready(function(){
                {portfolio:"work7",label:"wk7"},
                {portfolio:"work8",label:"wk8"},
             ];
+    works.forEach(function(work){
+        $("#"+ work.portfolio).mouseover(function(){
+            $("#"+ work.label).show();
+        }).mouseout(function(){
+            $("#" + work.label).hide();
+        });
+    })
         
-})
+});
