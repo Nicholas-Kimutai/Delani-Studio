@@ -7,7 +7,7 @@
 -   [Authors Info](#author-info)
 -   [License](#License)
 ## Description
-This is a landing page for Delani Studio showcasing who they are, their services, portfolio and how to get in-touch with them 
+This is a landing page for Delani Studio showcasing who they are, their services, portfolio and how to get in-touch with them.
 ## Installation
 ### Requirements
 -   Either a computer,phone,tablet or an Ipad

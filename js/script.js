@@ -16,6 +16,7 @@ $(document).ready(function(){
    })
 }); 
 
+
 //Portfolio hover effect
 $(document).ready(function(){
     var works=[{portfolio:"work1",label:"wk1"},
