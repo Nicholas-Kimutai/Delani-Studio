@@ -1,4 +1,4 @@
-//
+//toggle effect on What_we_do section
 $(document).ready(function(){
     var services=[{img:"design_image",details:"design_details"},
                   {img:"development_image",details:"development_details"},
@@ -15,3 +15,17 @@ $(document).ready(function(){
     });
    })
 }); 
+
+//Portfolio hover effect
+$(document).ready(function(){
+    var works=[{portfolio:"work1",label:"wk1"},
+               {portfolio:"work2",label:"wk2"},
+               {portfolio:"work3",label:"wk3"},
+               {portfolio:"work4",label:"wk4"},
+               {portfolio:"work5",label:"wk5"},
+               {portfolio:"work6",label:"wk6"},
+               {portfolio:"work7",label:"wk7"},
+               {portfolio:"work8",label:"wk8"},
+            ];
+        
+})
