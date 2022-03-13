@@ -36,3 +36,25 @@ $(document).ready(function(){
     })
         
 });
+
+
+//Form submission function
+function formSub(){
+    var name=document.getElementById("name").value;
+    var email=document.getElementById("email").value;
+    var message=document.getElementById("message").value;
+
+    if((email=="")||(email==null)){
+        alert("Please enter a valid email")
+    }
+    else if((name=="")||(name==null)){
+        alert("Please enter your name")
+    }
+    else if((message=="")||(message==null)){
+        alert("Please enter your message")
+    }
+else{
+    alert(name + "we have received your message. Thank you fro reaching out to us.")
+}
+
+}
