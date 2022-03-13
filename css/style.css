@@ -20,7 +20,14 @@
 
 }
 .contact_us{
+background-image: url('../Assets/backgrounds/c_image.jpg');
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
 text-align: center;
 margin-left: 5%;
 margin-right: 5%;
+}
+.contact_us form{
+    padding: 5%;
 }
