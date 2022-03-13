@@ -1,5 +1,5 @@
 .home{
-    height: 700px;
+    height:fit-content;
     background-image: url('../Assets/backgrounds/h_img.jpg');
     background-repeat: no-repeat;
     background-position: center;
@@ -15,6 +15,19 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+.what_we_do{
+    margin-top: 2%;
+}
+.card p{
+    display: none;
+    font-size: 30px;
+    font-weight: bolder;
+    color: white;
+    line-height: 5.5;
+}
+.card:hover{
+    opacity: 0.6;
 }
 
 .contact_us{
