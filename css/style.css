@@ -24,9 +24,14 @@
 .card p{
     display: none;
     font-size: 30px;
-    font-weight: bolder;
+    font-weight: 700;
     color: white;
-    line-height: 5.5;
+    border:solid white;
+    position: relative;
+    padding: 1px;
+    height: 80%;
+    align-content: center;
+    margin: 6%;
 }
 .card:hover{
     opacity: 0.6;
